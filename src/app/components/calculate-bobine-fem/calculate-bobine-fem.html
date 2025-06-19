@@ -1,47 +1,52 @@
 <div class="bobine-component">
   <div class="calculate-component">
-    <div class="spam-component"></div>
+    <div class="spam-component">
+    </div>
     <div class="input-class">
+      <span class="tittle-spam">Número de vueltas:</span>
+
+      <input
+        class="input"
+        type="text"
+        [(ngModel)]="nBobines"
+        (keypress)="onKeyPress($event)"
+        (input)="onInputEvent()"
+        (focus)="setFocusedOnInput($event)"
+        title="Numero de vueltas"
+      />
       <span class="tittle-spam">El flujo inicial del campo:</span>
 
       <input
         class="input"
         type="text"
-        name="campI"
         [(ngModel)]="campI"
         (keypress)="onKeyPress($event)"
         (input)="onInputEvent()"
         (focus)="setFocusedOnInput($event)"
-        title="input-class"
+        title="Flujo inicial"
       />
-
       <span class="tittle-spam">El flujo final del campo:</span>
 
       <input
         class="input"
         type="text"
-        name="campF"
         [(ngModel)]="campF"
         (keypress)="onKeyPress($event)"
         (input)="onInputEvent()"
         (focus)="setFocusedOnInput($event)"
-        title="input-class"
+        title="flujo final"
       />
-
       <span class="tittle-spam">t (Tiempo):</span>
-
       <input
         class="input"
         type="text"
-        name="t"
         [(ngModel)]="t"
         (keypress)="onKeyPress($event)"
         (input)="onInputEvent()"
         (focus)="setFocusedOnInput($event)"
-        title="input-class"
+        title="Tiempo"
       />
     </div>
-
     <div class="button-component">
       @for (operator of operators; track $index) {
       <button
@@ -54,9 +59,8 @@
       }
     </div>
   </div>
-
   <div class="result-component">
     <span class="spam-class">{{messege}}</span>
-    <span class="spam-class">{{result}} V</span>
+    <span class="spam-class">{{result}}</span>
   </div>
 </div>
