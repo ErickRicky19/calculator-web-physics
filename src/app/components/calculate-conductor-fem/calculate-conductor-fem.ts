@@ -15,7 +15,7 @@ export class CalculateConductorFem {
   long: number = 0;
   velocity: number = 0;
   result: number = 0;
-  messege: string = 'Calculando';
+  messege: string = 'Calculando: ';
   operators = [
     { label: RegexUtil.EXPLABEL, tooltip: RegexUtil.EXPTOOLTIP },
     { label: RegexUtil.RESTLABEL, tooltip: RegexUtil.RESTTOOLTIP },
@@ -62,7 +62,7 @@ export class CalculateConductorFem {
     } else {
       Sweetalert.error('Error', 'Una operacion o varias son invalidas');
       this.result = 0;
-      this.messege = 'Datos no validos';
+      this.messege = 'Datos no validos: ';
     }
   }
   inserOperatorToTextBar(operator: string) {
