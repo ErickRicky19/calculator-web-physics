@@ -5,7 +5,7 @@
 ## With bobine 
 ![imagen](https://github.com/user-attachments/assets/bc338742-c8d1-4695-85e6-78b330088704)
 
-## With straigh linear conductor
+## With straight linear conductor
 ![imagen](https://github.com/user-attachments/assets/9319c704-a493-45ca-8508-bc763c84ee6f)
 
 ## Validations inputs
