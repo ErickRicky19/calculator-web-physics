@@ -1,5 +1,5 @@
 # CalculatorWebPhysique
-##Calculing differents ways to find fem values, whithout bobine:
+## Calculing differents ways to find fem values, whithout bobine:
 ![imagen](https://github.com/user-attachments/assets/8c56d1aa-b354-477a-a223-98c70427214e)
 
 ## With bobine 
