@@ -1,0 +1,57 @@
+<div class="bobine-component">
+  <div class="calculate-component">
+  <div class="spam-component">
+  </div>
+    <div class="input-class">
+      <span class="tittle-spam">El flujo total del campo:</span>
+
+      <input
+        class="input"
+        type="text"
+        [(ngModel)]="camp"
+        (keypress)="onKeyPress($event)"
+        (input)="onInputEvent()"
+        (focus)="setFocusedOnInput($event)"
+        title="input-class"
+      />
+      <span class="tittle-spam">La longitud del cuerpo:</span>
+
+      <input
+        class="input"
+        type="text"
+        [(ngModel)]="long"
+        (keypress)="onKeyPress($event)"
+        (input)="onInputEvent()"
+        (focus)="setFocusedOnInput($event)"
+        title="input-class"
+      />
+      <span class="tittle-spam">v(velocidad):</span>
+      <input
+        class="input"
+        type="text"
+        [(ngModel)]="velocity"
+        (keypress)="onKeyPress($event)"
+        (input)="onInputEvent()"
+        (focus)="setFocusedOnInput($event)"
+        title="input-class"
+      />
+    </div>
+    <div class="button-component">
+      @for (operator of operators; track $index) {
+      <button
+        class="button-div"
+        [title]="operator.tooltip"
+        (click)="inserOperatorToTextBar(operator.label)"
+      >
+        {{operator.label}}
+      </button>
+      }
+    </div>
+  </div>
+  <div class="result-component">
+    
+  <span class="spam-class">{{messege}} </span>
+  <span class="spam-class"> {{result}}</span>
+</div>
+</div>
+

@@ -1,0 +1,39 @@
+<div class="main-component">
+  <div class="button-show-component">
+    <button
+      class="button-component"
+      (click)="ShowBobineComponent()"
+      title="Show Component"
+    >
+      Bobinas
+    </button>
+    <button
+      class="button-component"
+      (click)="ShowConductorComponent()"
+      title="Show Component"
+    >
+      Conductor Lineal
+    </button>
+    <button
+      class="button-component"
+      (click)="ShowNormalComponent()"
+      title="Show Component"
+    >
+      Calculo normal
+    </button>
+  </div>
+  @if (showBobineComponent) {
+  <div class="calculate-component">
+    <app-calculate-bobine-fem></app-calculate-bobine-fem>
+  </div>
+  } @if (showConductorComponent) {
+  <div class="calculate-component">
+    <app-calculate-conductor-fem></app-calculate-conductor-fem>
+  </div>
+  }
+   @if (showNormalComponent) {
+  <div class="calculate-component">
+    <app-calculate-normal-fem></app-calculate-normal-fem>
+  </div>
+  }
+</div>

@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%; 
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  min-height: 100vh; 
+
+  background-image: url('/image3.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+
+}
+.center-container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 50px;
+}
