@@ -1,4 +1,15 @@
 # CalculatorWebPhysique
+##Calculing differents ways to find fem values, whithout bobine:
+![imagen](https://github.com/user-attachments/assets/8c56d1aa-b354-477a-a223-98c70427214e)
+
+##With bobine 
+![imagen](https://github.com/user-attachments/assets/bc338742-c8d1-4695-85e6-78b330088704)
+
+##With straigh linear conductor
+![imagen](https://github.com/user-attachments/assets/278765d8-50dc-4d11-a1c4-4a19fca94b4c)
+
+##Validations inputs
+![imagen](https://github.com/user-attachments/assets/af5b4866-8289-4ade-9068-41bd0e21270a)
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.1.
 
@@ -9,7 +20,6 @@ To start a local development server, run:
 ```bash
 ng serve
 ```
-![imagen](https://github.com/user-attachments/assets/8c56d1aa-b354-477a-a223-98c70427214e)
 
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
