@@ -1,18 +1,21 @@
 # CalculatorWebPhysique
 ## Calculing differents ways to find fem values, whithout bobine:
-![imagen](https://github.com/user-attachments/assets/8c56d1aa-b354-477a-a223-98c70427214e)
+![imagen](https://github.com/user-attachments/assets/d5d3489d-1e40-494f-9c12-e24a39471365)
 
 ## With bobine 
-![imagen](https://github.com/user-attachments/assets/bc338742-c8d1-4695-85e6-78b330088704)
+![imagen](https://github.com/user-attachments/assets/acbf506d-c54c-4be2-a931-c928e70327e7)
 
 ## With straight linear conductor
-![imagen](https://github.com/user-attachments/assets/9319c704-a493-45ca-8508-bc763c84ee6f)
+![imagen](https://github.com/user-attachments/assets/26c4689e-3628-4b2f-9330-0e80b08f1753)
 
 ## Validations inputs
 ![imagen](https://github.com/user-attachments/assets/af5b4866-8289-4ade-9068-41bd0e21270a)
 
 ## Extra infromation to learn how is laws's functions
 ![imagen](https://github.com/user-attachments/assets/d9b51ebf-658c-4c63-b445-328326f1bba2)
+![imagen](https://github.com/user-attachments/assets/5b04341d-9bef-4b64-8ef9-3b0baa24d333)
+![imagen](https://github.com/user-attachments/assets/d4c667fe-4068-4633-9f23-6d7c0272ed8a)
+![imagen](https://github.com/user-attachments/assets/288e4404-7299-461d-b105-427776b25ce3)
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.1.
 
