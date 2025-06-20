@@ -11,11 +11,14 @@
 ## Validations inputs
 ![imagen](https://github.com/user-attachments/assets/af5b4866-8289-4ade-9068-41bd0e21270a)
 
+![imagen](https://github.com/user-attachments/assets/5b04341d-9bef-4b64-8ef9-3b0baa24d333)
+
+![imagen](https://github.com/user-attachments/assets/d4c667fe-4068-4633-9f23-6d7c0272ed8a)
+
+![imagen](https://github.com/user-attachments/assets/288e4404-7299-461d-b105-427776b25ce3)
 ## Extra infromation to learn how is laws's functions
 ![imagen](https://github.com/user-attachments/assets/d9b51ebf-658c-4c63-b445-328326f1bba2)
-![imagen](https://github.com/user-attachments/assets/5b04341d-9bef-4b64-8ef9-3b0baa24d333)
-![imagen](https://github.com/user-attachments/assets/d4c667fe-4068-4633-9f23-6d7c0272ed8a)
-![imagen](https://github.com/user-attachments/assets/288e4404-7299-461d-b105-427776b25ce3)
+
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.1.
 
