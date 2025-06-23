@@ -5,14 +5,14 @@
   border-radius: 10px;
   box-shadow: 0 4px 10px 0 rgba(255, 255, 255, 0.2),
     0px 0px 2px 6px rgba(235, 96, 4, 0.13);
-    margin: 120px;
+  margin: 120px;
+  overflow-x: auto;
 }
 .divided-component {
   width: 100%;
   height: 100%;
   border-radius: 10px;
   background-color: white;
-  
 }
 .header-class {
   text-align: center;
@@ -21,17 +21,17 @@
   margin: 20px;
   border-radius: 10px;
 }
-.info-component{
-   background-color: rgb(255, 255, 255);
+.info-component {
+  background-color: rgb(255, 255, 255);
   border-radius: 10px;
   box-shadow: 0 4px 10px 0 rgba(255, 255, 255, 0.2),
     0px 0px 2px 6px rgba(235, 96, 4, 0.13);
 }
-.info-component h3{
-        max-width: 1050px;
+.info-component h3 {
+  max-width: 1050px;
   word-wrap: break-word;
   white-space: normal;
 }
-.margin-div{
+.margin-div {
   margin: 40px;
 }
