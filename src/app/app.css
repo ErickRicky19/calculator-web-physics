@@ -25,7 +25,7 @@
   border-radius: 10px;
   box-shadow: 0 4px 10px 0 rgba(255, 255, 255, 0.2),
     0px 0px 2px 6px rgba(235, 96, 4, 0.13);
-    overflow-x: auto
+    
 }
 .info-component h3 {
   max-width: 1050px;
