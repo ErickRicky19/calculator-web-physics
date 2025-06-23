@@ -3,26 +3,29 @@ html, body {
   padding: 0;
   width: 100%;
   min-height: 100%; 
-  
+  overflow-x: hidden; /* evita scroll horizontal */
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  width: 100vw;
+  width: 100%; /* mejor usar 100% que 100vw para evitar scroll lateral */
   min-height: 100vh; 
 
   background-image: url('/image3.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: fixed;
-
+  
 }
+
 .center-container {
   display: grid;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  margin: 50px;
+  
+  padding: 20px; 
+  box-sizing: border-box;
+  
+  max-width: 100%; 
+  width: 100%;
 }
